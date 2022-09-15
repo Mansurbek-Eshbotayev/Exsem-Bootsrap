@@ -12,10 +12,14 @@ html {
 
 
 body {
-	font-family:  'Arial', 'sans-serif';
+	font-family: "Poppins" , "Arial", "sans-serif";
+	font-weight: 600;
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
-
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
 }
 
 img {
@@ -24,4 +28,8 @@ img {
 
 hr{
 	margin: 0;
+}
+
+.site-main{
+	flex-grow: 1;
 }

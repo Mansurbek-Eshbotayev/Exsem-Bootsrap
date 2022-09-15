@@ -1,0 +1,57 @@
+.hero{
+  background-image: url(../../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: 800px 208px;
+  background-position: bottom;
+}
+
+.hero__info{
+  width: 100%;
+  max-width: 527px;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.hero__strong{
+  color: #E87D0E;
+  font-size: 16px;
+}
+
+.hero__title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+
+}
+
+.hero__text{
+  font-weight: 500;
+}
+
+.hero__link{
+  background-color: #E87D0E;
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+
+@media only screen and (min-width:800px){
+  .hero{
+    background-image: url(../images/hero-images.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero__info{
+    width: 100%;
+    max-width: 527px;
+    padding-top: 130px;
+    padding-bottom: 160px;
+  }
+
+  .hero__strong{
+    color: #E87D0E;
+    font-size: 30px;
+  }
+}

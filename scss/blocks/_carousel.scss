@@ -1,0 +1,115 @@
+
+.carousel{
+  width: 100%;
+  max-width: 1500px;
+  padding-top: 55px;
+  padding-bottom: 140px;
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+
+.carousel__info{
+  width: 100%;
+  max-width: 545px;
+  margin-bottom: 32px;
+}
+
+.carousel__title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 32px ;
+}
+
+.carousel__text{
+  font-weight: 400;
+  font-size: 16px;
+  color: #525252;
+}
+
+.spin__list{
+  display: flex !important;
+  overflow-x: hidden;
+}
+
+.spin__item{
+  // width: 100%;
+  // max-width: 300px;
+  padding: 30px 30px 28px 28px;
+  margin-right: 38px;
+}
+
+.spin__btn{
+  padding-right: 35px;
+  background-color: #0cbe6426;
+  border-radius: 8px;
+}
+
+.spin__title{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.spin__text{
+  font-weight: 400;
+font-size: 12px;
+}
+
+.spin__btn--two{
+  background-color: #FBE5E5;
+}
+
+.spin__btn--thre{
+  color: #B000DC;
+  background-color: #F6E3FB;
+}
+
+.spin__btn--four{
+  background-color: #E8F0FC;
+}
+
+.spin__link{
+  font-weight: 500;
+font-size: 14px;
+color: #DC7000;
+
+  &::after{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/here.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 12px;
+  }
+}
+
+
+
+@media only screen and (min-width:768px){
+  .carousel{
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  
+  .carousel__info{
+    margin-bottom: 65px;
+  }
+  
+  .carousel__title{
+    font-size: 30px;
+  }
+  
+  .spin__item{
+    // max-width: 378px;
+    padding: 35px 39px 44px 35px;
+  }
+
+  .spin__text{
+  font-size: 14px;
+  }
+}

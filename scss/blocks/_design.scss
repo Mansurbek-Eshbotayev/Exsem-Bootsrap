@@ -1,0 +1,168 @@
+.drsign{
+  padding-bottom: 108px;
+}
+
+.design__info{
+  width: 100%;
+  max-width: 820px;
+  margin-bottom: 106px;
+}
+
+.design__title{
+  font-weight: 600;
+font-size: 20px;
+line-height: 187.5%;
+text-align: center;
+color: #222222;
+}
+
+.design__text{
+  font-weight: 400;
+font-size: 12px;
+line-height: 187.5%;
+color: #525252;
+}
+
+.design__wrap{
+  width: 100%;
+  max-width: 1500px;
+}
+
+.design__list{
+  font-size: 16px;
+}
+
+.design__link--one{
+  position: relative;
+}
+
+.design__link--one::before{
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/icon-one.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.design__link--two{
+  position: relative;
+}
+
+.design__link--two::before{
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/icon-two.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.design__link--thre{
+  position: relative;
+}
+
+.design__link--thre::before{
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/icon-thre.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.design__link--four{
+  position: relative;
+}
+
+.design__link--four::before{
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/icon-four.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.design__link--five{
+  position: relative;
+}
+
+.design__link--five::before{
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/icon-five.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.design__link--six{
+  position: relative;
+}
+
+.design__link--six::before{
+  content: "";
+  width: 65px;
+  height: 65px;
+  background-image: url(../images/icon-six.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+
+.design__item{
+  margin-bottom: 66px;
+  // margin-right: 100px;
+}
+
+.design__item--plus{
+  margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width:768px){
+  .drsign{
+    padding-bottom: 133px;
+  }
+
+  .design__info{
+    margin-bottom: 100px;
+  }
+
+  .design__title{
+  font-size: 25px;
+  }
+
+  .design__text{
+  font-size: 16px;
+  }
+
+  .design__item{
+    margin-right: 50px 
+    !important;
+    margin-left: 50px !important;
+  }
+
+  .design__item--plus , .design__item--add{
+    margin-bottom: 0px !important;
+  }
+}
