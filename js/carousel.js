@@ -1,11 +1,11 @@
 $('.spin__list').slick({
-  slidesToShow: 3.9,
+  slidesToShow: 2.5,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 2000,
   responsive: [
     {
-      breakpoint: 798,
+      breakpoint: 1400,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 2

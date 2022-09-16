@@ -355,6 +355,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 img {
@@ -394,7 +395,7 @@ hr {
   padding: 0;
 }
 
-.carousel__top {
+.container__top {
   width: 100%;
   max-width: 1170px !important;
   padding: 0 20px;
@@ -767,10 +768,11 @@ hr {
 }
 .carousel {
   width: 100%;
-  max-width: 1510px;
+  max-width: 100vw;
   padding-top: 55px;
   padding-bottom: 140px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
 }
 
 .carousel__info {
@@ -794,11 +796,17 @@ hr {
   color: #525252;
 }
 
+.spin__list {
+  display: flex !important;
+  overflow-x: hidden;
+}
+
 .spin__item {
   width: 100%;
-  min-width: 300px;
+  max-width: 300px;
   padding: 30px 30px 28px 28px;
-  margin-right: 38px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .spin__btn {
@@ -818,22 +826,22 @@ hr {
 }
 
 .spin__btn--two {
-  background-color: #FBE5E5;
+  background-color: #fbe5e5;
 }
 
 .spin__btn--thre {
-  color: #B000DC;
-  background-color: #F6E3FB;
+  color: #b000dc;
+  background-color: #f6e3fb;
 }
 
 .spin__btn--four {
-  background-color: #E8F0FC;
+  background-color: #e8f0fc;
 }
 
 .spin__link {
   font-weight: 500;
   font-size: 14px;
-  color: #DC7000;
+  color: #dc7000;
 }
 .spin__link::after {
   content: "";
@@ -847,6 +855,50 @@ hr {
   margin-left: 12px;
 }
 
+.slick-prev {
+  top: 545px;
+  right: 75px;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+  transform: rotate(-180deg);
+}
+.slick-prev::before {
+  content: "";
+  width: 8px;
+  height: 14px;
+  background-image: url(../images/right.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.slick-next {
+  top: 545px;
+  right: 20px;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+  transform: rotate(-180deg);
+}
+.slick-next::before {
+  content: "";
+  width: 8px;
+  height: 14px;
+  background-image: url(../images/left.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 400px) {
+  .spin__item {
+    margin-right: 38px;
+    margin-left: 0px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .carousel {
     padding-top: 70px;
@@ -859,10 +911,97 @@ hr {
     font-size: 30px;
   }
   .spin__item {
-    min-width: 378px;
+    max-width: 378px;
     padding: 35px 39px 44px 35px;
   }
   .spin__text {
     font-size: 14px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .slick-prev {
+    top: 130px;
+    right: 153px;
+  }
+  .slick-next {
+    top: 130px;
+    right: 90px;
+  }
+}
+.projact {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.projact__info {
+  width: 100%;
+  max-width: 440px;
+}
+
+.projact__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #222222;
+}
+
+.projact__text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #525252;
+}
+
+@media only screen and (min-width: 768px) {
+  .projact {
+    padding-top: 140px;
+    padding-bottom: 80px;
+  }
+  .projact__info {
+    max-width: 497px;
+    margin-bottom: 71px;
+  }
+  .projact__title {
+    font-size: 25px;
+  }
+  .projact__text {
+    font-size: 14px;
+  }
+}
+.simply {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.simply__info {
+  width: 100%;
+  max-width: 536px;
+}
+
+.simply__title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 34px;
+}
+
+.simply__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #515151;
+}
+
+@media only screen and (min-width: 768px) {
+  .simply {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .simoly__title {
+    font-size: 30px;
+    margin-bottom: 43px;
+  }
+  .simply__text {
+    font-size: 17px;
+    line-height: 26px;
+    color: #515151;
   }
 }/*# sourceMappingURL=main.css.map */
