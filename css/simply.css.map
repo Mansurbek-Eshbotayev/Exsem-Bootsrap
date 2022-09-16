@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/blocks/simply.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;EACF;EACA;EACA;;;AAGA;EACE;EACF;EACA;EACA;;;AAMA;EACE;IACE;IACA;;EAGF;IACA;IACA;;EAGA;IACA;IACA;IACA","file":"simply.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/blocks/simply.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACF;EACA;EACA;;;AAGA;EACE;EACF;EACA;EACA;;;AAGA;EACE;EACA;EACF;EACA;EACE;;;AAMF;EACE;IACE;IACA;;EAGF;IACA;IACA;;EAGA;IACA;IACA;IACA;;EAGA;IACE","file":"simply.css"}

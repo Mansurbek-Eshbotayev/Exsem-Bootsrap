@@ -13,6 +13,22 @@
   margin-bottom: 32px;
 }
 
+.btn:focus{
+  color: white;
+  border: none;
+  background-color:skyblue;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:hover{
+  color: white;
+  border: none;
+  background-color:skyblue;
+  outline: none;
+  box-shadow: none;
+}
+
 .carousel__title {
   font-family: "Poppins";
   font-style: normal;
@@ -39,6 +55,8 @@
   padding: 30px 30px 28px 28px;
   margin-right: 20px;
   margin-left: 20px;
+border-radius: 20px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 10px;
 }
 
 .spin__btn {
@@ -73,7 +91,6 @@
 .spin__link {
   font-weight: 500;
   font-size: 14px;
-  color: #dc7000;
   
   &::after {
     content: "";

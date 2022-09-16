@@ -1,365 +1,686 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./lib/slick-1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./lib/slick-1.8.1/slick/slick-theme.css"/>
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Bootstrap Exem</title>
-</head>
-<body>
-  
-  <!-- Header -->
-  <header class="site-header py-3">
-    <div class="container">
-      <div class="site-header__inner d-flex align-items-center justify-content-between">
-        
-        <a class="site-logo" href="./index.html">
-          <img class="logo-img" src="./images/LOGO.svg" alt="site logo">
-        </a>
-        
-        <div class="header__button d-block d-md-none">
-          <button class=" dropdown-toggle nav__button" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="./images/btn.svg" alt="site-btn">
-          </button>
-          <ul class="dropdown-menu text-center w-100 nav__lits pt-4    align-items-center" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item fs-4" href="./index.html">Home</a></li>
-            <li><a class="dropdown-item fs-4" href="#">About us</a></li>
-            <li><a class="dropdown-item fs-4" href="#">Services</a></li>
-            <li><a class="dropdown-item fs-4" href="#">News</a></li>
-          </ul>
-        </div>
-        
-        <div class="second__navigation d-none d-md-block">
-          <ul class="second__list d-flex align-items-center list-unstyled">
-            <li class="second__item d-flex
-            align-items-center">
-            <a class="second__link second__link--plus text-decoration-none d-block" href="./index.html">
-              Home
-            </a>
-          </li>
-          <li class="second__item">
-            <a class="second__link text-decoration-none d-block" href="./index.html">
-              About us
-            </a>
-          </li>
-          <li class="second__item">
-            <a class="second__link text-decoration-none d-block" href="./index.html">
-              Services
-            </a>
-          </li>
-          <li class="second__item">
-            <a class="second__link  text-decoration-none d-block" href="./index.html">
-              News
-            </a>
-          </li>
-          <li class="second__item">
-            <a class="second__link second__link--last py-2 px-4 d-none d-lg-block text-decoration-none bg-white rounded" href="./index.html">
-              Contact us
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</header>
-
-<!-- Site Main -->
-<main class="site-main">
-  <!-- section hero -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero__info ps-0 ps-md-5">
-        <strong class="hero__strong mb-2  ">
-          Digital Marketing
-        </strong>
-        <h1 class="hero__title text-bolt display-4 ">
-          Work that we produce for our clients
-        </h1>
-        <p class="hero__text text-black fs-6 mb-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
-        </p>
-        <div class="d-flex">
-          <a class="hero__link text-decoration-none text-white py-3 px-4 rounded-pill d-block" href="#">
-            Get more details
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./lib/slick-1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./lib/slick-1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Bootstrap Exem</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header py-3">
+      <div class="container">
+        <div
+          class="site-header__inner d-flex align-items-center justify-content-between"
+        >
+          <a class="site-logo" href="./index.html">
+            <img class="logo-img" src="./images/LOGO.svg" alt="site logo" />
           </a>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  <!-- section printing -->
-  <section class="printing ">
-    <div class="container__priting">
-      <h2 class="visually-hidden">
-        Printing page
-      </h2>
-      <div class="printing__cover mb-5 mx-auto">
-        <h3 class="printing__title h3">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </h3>
-      </div>
-      <div class="printing__info information ">
-        <div class="information__wrap d-none d-md-block">
-          <h4 class="information__title  fw-bold mb-4">
-            Lorem Ipsum
-          </h4>
-          <p class="information__text mb-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          </p>
-        </div>
-        <div class="printing__pic me-0 me-md-5 ">
-          <img class="printing__img d-block d-sm-none img-fluid w-100" src="./images/small-img.jpg" alt="printing img">
-          <img class="printing__img--two d-none d-sm-block img-fluid" src="./images/big-img.jpg" alt="printing img">
-        </div>
-        
-      </div>
-      
-      
-      
-    </div>
-  </section>
-  
-  <!-- Design -->
-  <section class="drsign">
-    <div class="container">
-      <div class="design__info text-center mx-auto ">
-        <h3 class="design__title h3 fw-bold mb-3 mb-md-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        </h3>
-        <p class="design__text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        </p>
-      </div>
-      <div class="design__wrap mx-auto">
-        <ul class="design__list list-unstyled text-center d-block d-sm-flex flex-wrap justify-content-center mb-0">
-          <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
-            <a class="design__link design__link--one text-decoration-none text-dark d-flex flex-column" href="#">
-              <span class="mb-4">Mobile Game Development</span> 
-              <span>
-                <img src="./images/here.svg" alt="">
-              </span>
-            </a>
-          </li>
-          
-          <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
-            <a class="design__link design__link--two text-decoration-none text-dark d-flex flex-column" href="#">
-              <span class="mb-4">PC Game Development</span> 
-              <span>
-                <img src="./images/here.svg" alt="">
-              </span>
-            </a>
-          </li>
-          
-          <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
-            <a class="design__link design__link--thre text-decoration-none text-dark d-flex flex-column" href="#">
-              <span class="mb-4">PS4 Game Development</span> 
-              <span>
-                <img src="./images/here.svg" alt="">
-              </span>
-            </a>
-          </li>
-          
-          <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
-            <a class="design__link design__link--four text-decoration-none text-dark d-flex flex-column" href="#">
-              <span class="mb-4">AR/VR Solutions</span> 
-              <span>
-                <img src="./images/here.svg" alt="">
-              </span>
-            </a>
-          </li>
-          
-          <li class="design__item design__item--add me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
-            <a class="design__link design__link--five text-decoration-none text-dark d-flex flex-column" href="#">
-              <span class="mb-4">AR/ VR design</span> 
-              <span>
-                <img src="./images/here.svg" alt="">
-              </span>
-            </a>
-          </li>
-          
-          <li class="design__item design__item--plus me-0 me-sm-5 ms-0 ms-sm-5">
-            <a class="design__link design__link--six text-decoration-none text-dark d-flex flex-column" href="#">
-              <span class="mb-4">3D Modelings</span> 
-              <span>
-                <img src="./images/here.svg" alt="">
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  
-  <!-- carousel -->
-  <section class="carousel mx-auto">
-    <div class="container__top mx-auto">
-      <div class="carousel__info ">
-        <h2 class="carousel__title ">
-          Lorem Ipsum
-        </h2>
-        <p class="carousel__text lead">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        </p>
-      </div>
-    </div>
-    <div class="carousel__spin spin">
-      <ul class="spin__list list-unstyled d-flex align-items-center justify-content-center">
-        <li class="spin__item bg-white rounded-4 ">
-          <button type="button" class="btn  spin__btn text-success border-0 mb-3 py-2">
-            Lorem ipsum
-          </button>
-          <h3 class="spin__title">
-            Lorem Ipsum
-          </h3>
-          <p class="spin__text mb-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          </p>
-          <div class="d-flex justify-content-end">
-            <a class="spin__link text-decoration-none d-flex align-items-center" href="#">
-              Read more
-            </a>
+
+          <div class="header__button d-block d-md-none">
+            <button
+              class="dropdown-toggle nav__button"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img src="./images/btn.svg" alt="site-btn" />
+            </button>
+            <ul
+              style="background-color: lightskyblue"
+              class="dropdown-menu text-center w-100 nav__lits pt-4 align-items-center"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <li>
+                <a class="dropdown-item fs-4" href="./index.html">Home</a>
+              </li>
+              <li><a class="dropdown-item fs-4" href="#">About us</a></li>
+              <li><a class="dropdown-item fs-4" href="#">Services</a></li>
+              <li><a class="dropdown-item fs-4" href="#">News</a></li>
+            </ul>
           </div>
-        </li>
-        
-        <li class="spin__item bg-white rounded-4">
-          <button type="button" class="btn btn-danger  spin__btn spin__btn--two text-danger table-danger border-0 mb-3 py-2">
-            Lorem ipsum
-          </button>
-          <h3 class="spin__title">
-            Lorem Ipsum
-          </h3>
-          <p class="spin__text mb-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          </p>
-          <div class="d-flex justify-content-end">
-            <a class="spin__link text-decoration-none d-flex align-items-center" href="#">
-              Read more
-            </a>
-          </div>
-        </li>
-        
-        <li class="spin__item bg-white rounded-4">
-          <button type="button" class="btn btn-danger  spin__btn spin__btn--thre  border-0 mb-3 py-2">
-            Lorem ipsum
-          </button>
-          <h3 class="spin__title">
-            Lorem Ipsum
-          </h3>
-          <p class="spin__text mb-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          </p>
-          <div class="d-flex justify-content-end">
-            <a class="spin__link text-decoration-none d-flex align-items-center" href="#">
-              Read more
-            </a>
-          </div>
-        </li>
-        
-        <li class="spin__item bg-white rounded-4">
-          <button type="button" class="btn btn-danger  spin__btn spin__btn--four text-primary  border-0 mb-3 py-2">
-            Lorem ipsum
-          </button>
-          <h3 class="spin__title">
-            Lorem Ipsum
-          </h3>
-          <p class="spin__text mb-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          </p>
-          <div class="d-flex justify-content-end">
-            <a class="spin__link text-decoration-none d-flex align-items-center" href="#">
-              Read more
-            </a>
-          </div>
-        </li>
-      </ul>
-    </div>
-    
-  </section>
-  
-  <!-- projact -->
-  <section class="projact">
-    <div class="container__top mx-auto">
-      <div class="projact__info mx-auto text-center mb-5">
-        <h2 class="projact__title mb-4">
-          Our Recent Projects
-        </h2>
-        <p class="projact__text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        </p>
-      </div>
-      <div>
-        <div class="row g-4 g-sm-3">
-          <div class="col-12 col-sm-6 col-md-4 mb-0 mb-lg-3">
-            <img class="img-fluid rounded-3 w-100 h-100" src="./images/book.jpg" alt="">
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 mb-0 mb-lg-3">
-            <img class="img-fluid rounded-3 w-100 h-100" src="./images/meating.jpg" alt="">
-          </div>
-          <div class="col-12 d-block d-sm-none">
-            <img class="img-fluid rounded-3 w-100 h-100" src="./images/talking.jpg" alt="">
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 mb-0 mb-lg-3">
-            <img class="img-fluid rounded-3 w-100 h-100" src="./images/task.jpg" alt="">
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-xl-3 ">
-            <img class="img-fluid rounded-3 w-100 h-100" src="./images/work.jpg" alt="">
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-xl-4">
-            <img class="img-fluid rounded-3 w-100 h-100" src="./images/bild.jpg" alt="">
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-xl-5 ">
-            <img class="img-fluid rounded-3 w-100 h-100" src="./images/talking.jpg" alt="">
+
+          <div class="second__navigation d-none d-md-block">
+            <ul class="second__list d-flex align-items-center list-unstyled">
+              <li class="second__item d-flex align-items-center">
+                <a
+                  class="second__link second__link--plus text-decoration-none d-block"
+                  href="./index.html"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="second__item">
+                <a
+                  class="second__link second__link--one text-decoration-none d-block"
+                  href="./index.html"
+                >
+                  About us
+                </a>
+              </li>
+              <li class="second__item">
+                <a
+                  class="second__link second__link--two text-decoration-none d-block"
+                  href="./index.html"
+                >
+                  Services
+                </a>
+              </li>
+              <li class="second__item">
+                <a
+                  class="second__link second__link--thri text-decoration-none d-block"
+                  href="./index.html"
+                >
+                  News
+                </a>
+              </li>
+              <li class="second__item">
+                <a
+                  class="second__link text-warning py-2 px-4 d-none d-lg-block text-decoration-none bg-white rounded"
+                  href="./index.html"
+                >
+                  Contact us
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      
-    </div>
-  </section>
-  
-  <!-- Simply section -->
-  <section class="simply">
-    <div class="container__top mx-auto">
-      <h2 class="visually-hidden">
-        Simple
-      </h2>
-      <div class="row flex-column-reverse">
-        <div class="col-12">
-          <div class="simply__pic">
-            <img class="img-fluid" src="./images/simpl-big.svg" alt="simple images">
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="simply__info">
-            <h3 class="simply__title">
-              Lorem Ipsum is simply  dummy <br class="d-block d-sm-none">
-              text dummy text 
-            </h3>
-            <p class="simply__text pb-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+    </header>
+
+    <!-- Site Main -->
+    <main class="site-main">
+      <!-- section hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__info ps-0 ps-md-5">
+            <strong class="hero__strong mb-2"> Digital Marketing </strong>
+            <h1 class="hero__title text-bolt display-4">
+              Work that we produce for our clients
+            </h1>
+            <p class="hero__text text-black fs-6 mb-5">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard.
             </p>
-            <p class="simply__text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            </p>
-            <div>
-              <a class="text-decoration-none simply__link" href="#">
-                Read more
+            <div class="d-flex">
+              <a
+                class="hero__link text-decoration-none text-white py-3 px-4 rounded-pill d-block"
+                href="#"
+              >
+                Get more details
               </a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-</main>
+      </section>
+      <!-- section printing -->
+      <section class="printing">
+        <div class="container__priting">
+          <h2 class="visually-hidden">Printing page</h2>
+          <div class="printing__cover mb-5 mx-auto">
+            <h3 class="printing__title h3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h3>
+          </div>
+          <div class="printing__info information">
+            <div class="information__wrap d-none d-md-block">
+              <h4 class="information__title fw-bold mb-4">Lorem Ipsum</h4>
+              <p class="information__text mb-5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+            <div class="printing__pic me-0 me-md-5">
+              <img
+                class="printing__img d-block d-sm-none img-fluid w-100"
+                src="./images/small-img.jpg"
+                alt="printing img"
+              />
+              <img
+                class="printing__img--two d-none d-sm-block img-fluid"
+                src="./images/big-img.jpg"
+                alt="printing img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="./lib/slick-1.8.1/slick/slick.min.js"></script>
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./js/main.js"></script>
-<script src="./js/carousel.js"></script>
-</body>
+      <!-- Design -->
+      <section class="drsign">
+        <div class="container">
+          <div class="design__info text-center mx-auto">
+            <h3 class="design__title h3 fw-bold mb-3 mb-md-4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h3>
+            <p class="design__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+          <div class="design__wrap mx-auto">
+            <ul
+              class="design__list list-unstyled text-center d-block d-sm-flex flex-wrap justify-content-center mb-0"
+            >
+              <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
+                <a
+                  class="design__link design__link--one text-decoration-none text-dark d-flex flex-column"
+                  href="#"
+                >
+                  <span class="mb-4">Mobile Game Development</span>
+                  <span>
+                    <img src="./images/here.svg" alt="" />
+                  </span>
+                </a>
+              </li>
+
+              <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
+                <a
+                  class="design__link design__link--two text-decoration-none text-dark d-flex flex-column"
+                  href="#"
+                >
+                  <span class="mb-4">PC Game Development</span>
+                  <span>
+                    <img src="./images/here.svg" alt="" />
+                  </span>
+                </a>
+              </li>
+
+              <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
+                <a
+                  class="design__link design__link--thre text-decoration-none text-dark d-flex flex-column"
+                  href="#"
+                >
+                  <span class="mb-4">PS4 Game Development</span>
+                  <span>
+                    <img src="./images/here.svg" alt="" />
+                  </span>
+                </a>
+              </li>
+
+              <li class="design__item me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0">
+                <a
+                  class="design__link design__link--four text-decoration-none text-dark d-flex flex-column"
+                  href="#"
+                >
+                  <span class="mb-4">AR/VR Solutions</span>
+                  <span>
+                    <img src="./images/here.svg" alt="" />
+                  </span>
+                </a>
+              </li>
+
+              <li
+                class="design__item design__item--add me-0 me-sm-5 ms-0 ms-sm-5 ms-lg-0"
+              >
+                <a
+                  class="design__link design__link--five text-decoration-none text-dark d-flex flex-column"
+                  href="#"
+                >
+                  <span class="mb-4">AR/ VR design</span>
+                  <span>
+                    <img src="./images/here.svg" alt="" />
+                  </span>
+                </a>
+              </li>
+
+              <li
+                class="design__item design__item--plus me-0 me-sm-5 ms-0 ms-sm-5"
+              >
+                <a
+                  class="design__link design__link--six text-decoration-none text-dark d-flex flex-column"
+                  href="#"
+                >
+                  <span class="mb-4">3D Modelings</span>
+                  <span>
+                    <img src="./images/here.svg" alt="" />
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- carousel -->
+      <section class="carousel mx-auto">
+        <div class="container__top mx-auto">
+          <div class="carousel__info">
+            <h2 class="carousel__title">Lorem Ipsum</h2>
+            <p class="carousel__text lead">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </div>
+        <div class="carousel__spin spin">
+          <ul
+            class="spin__list list-unstyled d-flex align-items-center justify-content-center"
+          >
+            <li class="spin__item bg-white">
+              <button
+                type="button"
+                class="btn spin__btn text-success border-0 mb-3 py-2"
+              >
+                Lorem ipsum
+              </button>
+              <h3 class="spin__title">Lorem Ipsum</h3>
+              <p class="spin__text mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <div class="d-flex justify-content-end">
+                <a
+                  class="spin__link text-decoration-none d-flex align-items-center text-warning"
+                  href="#"
+                >
+                  Read more
+                </a>
+              </div>
+            </li>
+
+            <li class="spin__item bg-white">
+              <button
+                type="button"
+                class="btn btn-danger spin__btn spin__btn--two text-danger table-danger border-0 mb-3 py-2"
+              >
+                Lorem ipsum
+              </button>
+              <h3 class="spin__title">Lorem Ipsum</h3>
+              <p class="spin__text mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <div class="d-flex justify-content-end">
+                <a
+                  class="spin__link text-decoration-none d-flex align-items-center text-warning"
+                  href="#"
+                >
+                  Read more
+                </a>
+              </div>
+            </li>
+
+            <li class="spin__item bg-white">
+              <button
+                type="button"
+                class="btn btn-danger spin__btn spin__btn--thre border-0 mb-3 py-2"
+              >
+                Lorem ipsum
+              </button>
+              <h3 class="spin__title">Lorem Ipsum</h3>
+              <p class="spin__text mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <div class="d-flex justify-content-end">
+                <a
+                  class="spin__link text-decoration-none d-flex align-items-center text-warning"
+                  href="#"
+                >
+                  Read more
+                </a>
+              </div>
+            </li>
+
+            <li class="spin__item bg-white">
+              <button
+                type="button"
+                class="btn btn-danger spin__btn spin__btn--four text-primary border-0 mb-3 py-2"
+              >
+                Lorem ipsum
+              </button>
+              <h3 class="spin__title">Lorem Ipsum</h3>
+              <p class="spin__text mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <div class="d-flex justify-content-end">
+                <a
+                  class="spin__link text-decoration-none d-flex align-items-center text-warning"
+                  href="#"
+                >
+                  Read more
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- projact -->
+      <section class="projact">
+        <div class="container__top mx-auto">
+          <div class="projact__info mx-auto text-center mb-5">
+            <h2 class="projact__title mb-4">Our Recent Projects</h2>
+            <p class="projact__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div>
+            <div class="row g-4 g-sm-3">
+              <div class="col-12 col-sm-6 col-md-4 mb-0 mb-lg-3">
+                <img
+                  class="img-fluid rounded-3 w-100 h-100"
+                  src="./images/book.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 mb-0 mb-lg-3">
+                <img
+                  class="img-fluid rounded-3 w-100 h-100"
+                  src="./images/meating.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-12 d-block d-sm-none">
+                <img
+                  class="img-fluid rounded-3 w-100 h-100"
+                  src="./images/talking.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 mb-0 mb-lg-3">
+                <img
+                  class="img-fluid rounded-3 w-100 h-100"
+                  src="./images/task.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="d-none d-sm-block col-sm-6 col-md-4 col-xl-3">
+                <img
+                  class="img-fluid rounded-3 w-100 h-100"
+                  src="./images/work.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="d-none d-sm-block col-sm-6 col-md-4 col-xl-4">
+                <img
+                  class="img-fluid rounded-3 w-100 h-100"
+                  src="./images/bild.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="d-none d-sm-block col-sm-6 col-md-4 col-xl-5">
+                <img
+                  class="img-fluid rounded-3 w-100 h-100"
+                  src="./images/talking.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Simply section -->
+      <section class="simply">
+        <div class="container__top mx-auto">
+          <h2 class="visually-hidden">Simple</h2>
+          <div class="row flex-lg-row-reverse">
+            <div class="col-12 col-lg-6 offset-xl-1 simply__top">
+              <div class="simply__info mx-auto">
+                <h3 class="simply__title">
+                  Lorem Ipsum is simply dummy <br class="d-block d-sm-none" />
+                  text dummy text
+                </h3>
+                <p class="simply__text pb-3">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries,
+                </p>
+                <p class="simply__text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex">
+                  <a
+                    class="text-decoration-none d-block text-white simply__link bg-warning"
+                    href="#"
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-5 d-flex align-items-center justify-content-center"
+            >
+              <div class="simply__pic text-center">
+                <img
+                  class="img-fluid mx-auto h-100"
+                  src="./images/simpl-big.svg"
+                  alt="simple images"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- continue -->
+      <section class="continue">
+        <div class="container__top mx-auto">
+          <div class="continue__info">
+            <h2 class="continue__title mb-3 mb-md-5 fw-bold">Lorem Ipsum</h2>
+            <h2 class="continue__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h2>
+          </div>
+          <div class="continue__down down">
+            <div class="down__wrap">
+              <h3 class="down__title text-white">Stay in the loop</h3>
+              <p class="down__text text-white">
+                Subscribe to receive the latest news and updates about TDA. We
+                promise not to spam you!
+              </p>
+            </div>
+            <form
+              class="px-1 py-1 bg-white rounded-2"
+              action="https://echo.htmlacademy.ru/courses"
+              method="POST"
+              autocomplete="off"
+            >
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control border-0"
+                  name="your_email"
+                  placeholder="Enter email address"
+                  aria-label="Enter email address"
+                />
+                <button
+                  type="submit"
+                  class="input-group-text border-0 px-3 rounded-3 form__button bg-warning text-white"
+                >
+                  Continue
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__hight border-bottom">
+        <div class="container mx-auto">
+          <div
+            class="footer__top d-flex justify-content-between align-items-start"
+          >
+            <div
+              class="footer__info footer__info--start footer__info--one message text-center text-sm-start mx-auto mx-sm-0"
+            >
+              <a
+                class="message__logo text-decoration-none d-block mb-3"
+                href="./index.html"
+              >
+                <img src="./images/LOGO.svg" alt="site logo" />
+              </a>
+              <p class="message__text text-white mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <a
+                class="message__link text-white text-decoration-none d-block"
+                href="https://www.company.com/"
+                target="blank"
+              >
+                @Company.com
+              </a>
+            </div>
+
+            <div class="footer__info message me-sm-5 me-md-0 d-none d-sm-block">
+              <strong class="message__title d-block text-white mb-3">
+                About us
+              </strong>
+              <ul class="message__list list-unstyled">
+                <li class="message__item">
+                  <a
+                    class="message__link text-decoration-none text-white"
+                    href="#"
+                  >
+                    Company
+                  </a>
+                </li>
+                <li class="message__item">
+                  <a
+                    class="message__link text-decoration-none text-white"
+                    href="#"
+                  >
+                    Portfolio
+                  </a>
+                </li>
+                <li class="message__item">
+                  <a
+                    class="message__link text-decoration-none text-white"
+                    href="#"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="message__item">
+                  <a
+                    class="message__link text-decoration-none text-white"
+                    href="#"
+                  >
+                    Contact us
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="footer__info footer__info--two message d-none d-md-block"
+            >
+              <strong class="message__title d-block mb-4 text-white">
+                Contact us
+              </strong>
+              <p class="message__text mb-3 text-white">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <a
+                class="message__text text-white text-decoration-none"
+                href="tel:+9000 0000 000"
+              >
+                +9000 0000 000
+              </a>
+            </div>
+
+            <div
+              class="footer__info footer__info--thre icon h-100 d-flex align-items-end d-none d-lg-block"
+            >
+              <ul
+                class="icon__list list-unstyled d-flex align-items-end g-2 mb-0"
+              >
+                <li class="icon__item me-3">
+                  <a
+                    class="icon__link bg-white px-3 pb-1 rounded-circle"
+                    href="https://www.facebook.com/"
+                    target="blank"
+                  >
+                    <img src="./images/facebook.svg" alt="facebook" />
+                  </a>
+                </li>
+                <li class="icon__item me-3">
+                  <a
+                    class="icon__link icon__link--two bg-white pb-1 rounded-circle"
+                    href="https://www.instagram.com/"
+                    target="blank"
+                  >
+                    <img src="./images/instagram.svg " alt="instagram" />
+                  </a>
+                </li>
+                <li class="icon__item me-3">
+                  <a
+                    class="icon__link--two bg-white pb-1 rounded-circle"
+                    href="https://twitter.com/?lang=ru"
+                    target="blank"
+                  >
+                    <img src="./images/twitter.svg " alt="twitter" />
+                  </a>
+                </li>
+                <li class="icon__item">
+                  <a
+                    class="icon__link--thre bg-white rounded-circle"
+                    href="https://www.linkedin.com/feed/"
+                    target="blank"
+                  >
+                    <img src="./images/linkedin.svg " alt="linkedin" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="footer__bottom d-flex justify-content-center align-items-center"
+      >
+        <p class="footer__down mb-0 text-white">
+          Copyright ® 2021 Company All rights Rcerved
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./lib/slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carousel.js"></script>
+  </body>
 </html>

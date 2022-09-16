@@ -1,38 +1,36 @@
-.printing{
+.printing {
   padding-top: 48px;
   padding-bottom: 100px;
 }
 
-
-
-.printing__title{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 187.5%;
-text-align: center;
-color: #222222;
+.printing__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 187.5%;
+  text-align: center;
+  color: #222222;
 }
 
-.printing__cover{
+.printing__cover {
   width: 100%;
   max-width: 826px;
 }
 
-.information__wrap{
+.information__wrap {
   width: 100%;
   max-width: 545px;
 }
 
-.information__text{
+.information__text {
   font-weight: 400;
-font-size: 16px;
-line-height: 187.5%;
-color: #525252;
+  font-size: 16px;
+  line-height: 187.5%;
+  color: #525252;
 }
 
-.printing__pic{
+.printing__pic {
   // overflow-x: hidden;
   width: 80%;
   // max-width: 320px;
@@ -40,12 +38,12 @@ color: #525252;
   z-index: 1;
 }
 
-.printing__pic::after{
+.printing__pic::after {
   content: "";
   width: 78px;
   height: 62px;
   top: -23px;
-    right: -23px;
+  right: -23px;
   background-image: url(../images/dots.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -54,25 +52,25 @@ color: #525252;
   z-index: -1;
 }
 
-@media only screen and (min-width:768px){
-  .printing{
+@media only screen and (min-width: 768px) {
+  .printing {
     padding-top: 83px;
     padding-bottom: 165px;
   }
 
-  .printing__title{
-  font-size: 25px;
+  .printing__title {
+    font-size: 25px;
   }
 
-  .printing__info{
+  .printing__info {
     padding-left: 90px;
   }
 
-  .printing__pic{
+  .printing__pic {
     max-width: 934px;
   }
 
-  .printing__pic::after{
+  .printing__pic::after {
     content: "";
     width: 169px;
     height: 154px;
@@ -86,6 +84,3 @@ color: #525252;
     z-index: -1;
   }
 }
-
-
-

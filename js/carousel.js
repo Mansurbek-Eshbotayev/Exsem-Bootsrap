@@ -1,5 +1,5 @@
 $('.spin__list').slick({
-  slidesToShow: 2.5,
+  slidesToShow: 3.7,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -8,7 +8,7 @@ $('.spin__list').slick({
       breakpoint: 1400,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 2
+        slidesToScroll: 1
       }
     }
   ]

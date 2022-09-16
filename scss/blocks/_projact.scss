@@ -1,41 +1,41 @@
-.projact{
+.projact {
   padding-top: 60px;
   padding-bottom: 50px;
 }
 
-.projact__info{
+.projact__info {
   width: 100%;
   max-width: 440px;
 }
 
-.projact__title{
+.projact__title {
   font-weight: 600;
-font-size: 20px;
-color: #222222;
+  font-size: 20px;
+  color: #222222;
 }
 
-.projact__text{
+.projact__text {
   font-weight: 400;
-font-size: 12px;
-color: #525252;
+  font-size: 12px;
+  color: #525252;
 }
 
-@media only screen and (min-width:768px){
-  .projact{
+@media only screen and (min-width: 768px) {
+  .projact {
     padding-top: 140px;
     padding-bottom: 80px;
   }
 
-  .projact__info{
+  .projact__info {
     max-width: 497px;
     margin-bottom: 71px;
   }
 
-  .projact__title{
-  font-size: 25px;
+  .projact__title {
+    font-size: 25px;
   }
 
-  .projact__text{
-  font-size: 14px;
-}
+  .projact__text {
+    font-size: 14px;
+  }
 }
