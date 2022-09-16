@@ -10147,6 +10147,46 @@ hr {
   background-color: #e37808;
 }
 
+.hight__link {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1A1A1A;
+}
+
+.hight__link--one {
+  display: flex;
+  align-items: center;
+}
+
+.hight__link--one::before {
+  content: "";
+  width: 10px;
+  height: 15px;
+  background-image: url(../images/map.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.hight__link--two {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.hight__link--two::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/tel.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 6px;
+}
+
 .dropdown-toggle::after {
   display: none !important;
 }

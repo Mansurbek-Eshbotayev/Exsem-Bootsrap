@@ -18,91 +18,107 @@
       rel="stylesheet"
       href="./bootstrap-5.0.2/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Bootstrap Exem</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="site-header py-3">
+    <header class="header">
       <div class="container">
-        <div
-          class="site-header__inner d-flex align-items-center justify-content-between"
-        >
-          <a class="site-logo" href="./index.html">
-            <img class="logo-img" src="./images/LOGO.svg" alt="site logo" />
-          </a>
-
-          <div class="header__button d-block d-md-none">
-            <button
-              class="dropdown-toggle nav__button"
-              type="button"
-              id="dropdownMenuButton"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img src="./images/btn.svg" alt="site-btn" />
-            </button>
-            <ul
-              style="background-color: lightskyblue"
-              class="dropdown-menu text-center w-100 nav__lits pt-4 align-items-center"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <li>
-                <a class="dropdown-item fs-4" href="./index.html">Home</a>
-              </li>
-              <li><a class="dropdown-item fs-4" href="#">About us</a></li>
-              <li><a class="dropdown-item fs-4" href="#">Services</a></li>
-              <li><a class="dropdown-item fs-4" href="#">News</a></li>
-            </ul>
+        <div class="header__top hight d-none d-sm-block">
+          <div class="hight__inner py-2 d-flex align-items-center justify-content-end">
+            <a class="hight__link hight__link--one text-decoration-none" href="https://goo.gl/maps/cTpfUtB5g1v6Rs6FA" target="blank">
+              Company Address type here
+            </a>
+            <a class="hight__link hight__link--two text-decoration-none" href="tel:+9400000000">
+              +94 000 00000
+            </a>
           </div>
-
-          <div class="second__navigation d-none d-md-block">
-            <ul class="second__list d-flex align-items-center list-unstyled">
-              <li class="second__item d-flex align-items-center">
-                <a
-                  class="second__link second__link--plus text-decoration-none d-block"
-                  href="./index.html"
-                >
-                  Home
-                </a>
-              </li>
-              <li class="second__item">
-                <a
-                  class="second__link second__link--one text-decoration-none d-block"
-                  href="./index.html"
-                >
-                  About us
-                </a>
-              </li>
-              <li class="second__item">
-                <a
-                  class="second__link second__link--two text-decoration-none d-block"
-                  href="./index.html"
-                >
-                  Services
-                </a>
-              </li>
-              <li class="second__item">
-                <a
-                  class="second__link second__link--thri text-decoration-none d-block"
-                  href="./index.html"
-                >
-                  News
-                </a>
-              </li>
-              <li class="second__item">
-                <a
-                  class="second__link text-warning py-2 px-4 d-none d-lg-block text-decoration-none bg-white rounded"
-                  href="./index.html"
-                >
-                  Contact us
-                </a>
-              </li>
-            </ul>
+        </div>
+      </div>
+      <div class="site-header py-3">
+        <div class="container">
+          
+          <div
+            class="site-header__inner d-flex align-items-center justify-content-between"
+          >
+            <a class="site-logo" href="./index.html">
+              <img class="logo-img" src="./images/LOGO.svg" alt="site logo" />
+            </a>
+  
+            <div class="header__button d-block d-md-none">
+              <button
+                class="dropdown-toggle nav__button"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="./images/btn.svg" alt="site-btn" />
+              </button>
+              <ul
+                style="background-color: lightskyblue"
+                class="dropdown-menu text-center w-100 nav__lits pt-4 align-items-center"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <li>
+                  <a class="dropdown-item fs-4" href="./index.html">Home</a>
+                </li>
+                <li><a class="dropdown-item fs-4" href="#">About us</a></li>
+                <li><a class="dropdown-item fs-4" href="#">Services</a></li>
+                <li><a class="dropdown-item fs-4" href="#">News</a></li>
+              </ul>
+            </div>
+  
+            <div class="second__navigation d-none d-md-block">
+              <ul class="second__list d-flex align-items-center list-unstyled">
+                <li class="second__item d-flex align-items-center">
+                  <a
+                    class="second__link second__link--plus text-decoration-none d-block"
+                    href="./index.html"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="second__item">
+                  <a
+                    class="second__link second__link--one text-decoration-none d-block"
+                    href="./index.html"
+                  >
+                    About us
+                  </a>
+                </li>
+                <li class="second__item">
+                  <a
+                    class="second__link second__link--two text-decoration-none d-block"
+                    href="./index.html"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li class="second__item">
+                  <a
+                    class="second__link second__link--thri text-decoration-none d-block"
+                    href="./index.html"
+                  >
+                    News
+                  </a>
+                </li>
+                <li class="second__item">
+                  <a
+                    class="second__link text-warning py-2 px-4 d-none d-lg-block text-decoration-none bg-white rounded"
+                    href="./index.html"
+                  >
+                    Contact us
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </header>
+    
 
     <!-- Site Main -->
     <main class="site-main">
